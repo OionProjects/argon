@@ -1,14 +1,9 @@
 <h1 align="left">
     Argon Dashboard
-    <a href="http://demos.krajee.com" title="Krajee Demos" target="_blank">
-        <img src="http://kartik-v.github.io/bootstrap-fileinput-samples/samples/krajee-logo-b.png" alt="Krajee Logo"/>
-    </a>
 </h1>
 <hr>
 
 Argon Dashboard and components for Yii 2.0 Framework.
-
-> NOTE: This extension depends on the [yiisoft/yii2-bootstrap](https://github.com/yiisoft/yii2-bootstrap) and/or [yiisoft/yii2-bootstrap4](https://github.com/yiisoft/yii2-bootstrap4) extensions. Check the [composer.json](https://github.com/kartik-v/yii2-krajee-base/blob/master/composer.json) for this extension's requirements and dependencies. 
 
 ## Installation
 
@@ -37,14 +32,14 @@ If you're using Yii app advanced template, configure your <code>main.php</code> 
 
 ```
 'view' => [
-	        'theme' => [
-		        //'basePath' => '@frontend/views/argon/web',
-		        'baseUrl' => '@frontend/views/argon/web',
-		        'pathMap' => [
-			        '@app/views' => '@vendor/bolante93/bols'
-		        ],
-	        ],
+    'theme' => [
+        //'basePath' => '@frontend/views/argon/web',
+        'baseUrl' => '@frontend/views/argon/web',
+        'pathMap' => [
+            '@app/views' => '@vendor/bolante93/bols'
         ],
+    ],
+],
 ```
 
 ## Screenshot
