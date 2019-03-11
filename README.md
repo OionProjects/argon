@@ -56,4 +56,4 @@ If you're using Yii app advanced template, configure your <code>main.php</code> 
 
 ## License
 
-**yii2-krajee-base** is released under the MIT License. See the bundled `LICENSE.md` for details.
+**Argon Dashboard** is released under the MIT License.
