@@ -1,7 +1,8 @@
 <?php
 
 use frontend\assets\AppAsset;
-use frontend\views\argon\assets\ArgonAssets;
+//use frontend\views\argon\assets\ArgonAssets;
+//use bolante93\bols\assets\ArgonAssets;
 use kartik\icons\Icon;
 use yii\bootstrap\Modal;
 use yii\helpers\Html;
@@ -16,7 +17,7 @@ use yii\helpers\Html;
 ?>
 <?php
 
-    $bundle =  ArgonAssets::register($this);
+    $bundle =  \bolante93\bols\assets\ArgonAssets::register($this);
     $this->beginPage()
 ?>
     <!DOCTYPE html>

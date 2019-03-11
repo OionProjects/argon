@@ -1,6 +1,6 @@
 <?php
 
-namespace bols\argon\assets;
+namespace bolante93\bols\assets;
 
 use yii\web\AssetBundle;
 
@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
 class ArgonAssets extends AssetBundle
 {
 	//public $basePath = '@frontend/views/argon/web';
-	public $sourcePath = '@vendor/bolante93/bols/argon/web';
+	public $sourcePath = '@vendor/bolante93/bols';
 	//public $baseUrl = '@web';
 	public $css = [
 		'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700',
