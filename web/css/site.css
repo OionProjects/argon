@@ -1,0 +1,2 @@
+form .alert{ display: none }
+form  .has-error .alert{ display: block }

@@ -1,0 +1,21 @@
+{
+    "name": "bolante93/bols",
+    "description": "Argon Dashboard and components for Yii 2.0 Framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jay Jules Bolante",
+            "email": "bolante93@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bols\\argon\\": ""
+        }
+    }
+}
