@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-use common\widgets\argon\ArgonFieldWidget;
+use bols\argon\ArgonFieldWidget;
 use yii\bootstrap\ActiveForm;
 use yii\bootstrap\Html;
 

@@ -1,8 +1,6 @@
 <?php
 
 use frontend\assets\AppAsset;
-//use frontend\views\argon\assets\ArgonAssets;
-//use bolante93\bols\assets\ArgonAssets;
 use kartik\icons\Icon;
 use yii\bootstrap\Modal;
 use yii\helpers\Html;
@@ -16,8 +14,8 @@ use yii\helpers\Html;
     //echo $this->render( 'main-login', ['content' => $content] );
 ?>
 <?php
-
-    $bundle =  \bolante93\bols\assets\ArgonAssets::register($this);
+    $bundle =  \bols\argon\assets\ArgonAssets::register($this);
+    //$bundle = bols\argon\
     $this->beginPage()
 ?>
     <!DOCTYPE html>
@@ -39,7 +37,9 @@ use yii\helpers\Html;
         ?>
 
         <div class="main-content">
-            <?= $this->render( 'header.php' ); ?>
+            <?php if( !Yii::$app->user->isGuest ): ?>
+	            <?= $this->render( 'header.php' ); ?>
+            <?php endif; ?>
             <?= $this->render( 'content.php',['content'=>$content,'bundle'=>$bundle]) ?>
         </div>
 
