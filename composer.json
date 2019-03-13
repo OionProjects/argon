@@ -2,7 +2,7 @@
     "name": "bolante93/bols",
     "description": "Argon Dashboard and components for Yii 2.0 Framework",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","yii2 theme","yii2 dashboard","yii2 theme 2019"],
+    "keywords": ["yii2","extension","theme","admin","theme 2019","2019 theme","argon","dashboard"],
     "license": "MIT",
     "minimum-stability":"dev",
     "authors": [
