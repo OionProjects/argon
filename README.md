@@ -9,7 +9,7 @@ Argon Dashboard and components for Yii 2.0 Framework.
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-> Note: This theme is still under development stages. So expect nothing more with 1 man power. Use this theme at your own risk.
+> Note: This theme is still under development stages.
 
 Either run
 
